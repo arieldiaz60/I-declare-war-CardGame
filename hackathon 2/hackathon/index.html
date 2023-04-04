@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://unpkg.com/axios/dist/axios.min.js" defer></script>
+  <script src="scripts.js" defer></script>
+  <link rel="stylesheet" href="/styles.css" />
+  <title>Document</title>
+</head>
+
+<body>
+  <header>
+    <div class="navBar">
+      <h1 class="navBar__logo">I DECLARE WAR</h1>
+    </div>
+  </header>
+  <section class="main">
+    <div class="main__container">
+
+
+      <!-- LEFT -->
+      <div class="main__left-container">
+        <div class="main__left-container-content">
+          <!-- <button class="main__left-split-button">SPLIT</button> -->
+          <div id="form-container-one">
+            <form class="form-container">
+              <label for="name">Player 1</label>
+              <input type="text" id="name1" name="name" /><br />
+
+              <button type="button" onclick="displayNameOne()">Submit</button>
+            </form>
+
+            <img class="" src="" />
+          </div>
+          <div id="output1"></div>
+
+          <div class="card-section">
+            <div class="card-container-1">
+              <img id="card-image-1" src="" />
+            </div>
+            <button id="draw-card-btn-1">Draw Card</button>
+          </div>
+          <!-- <div class="main__left-button-container">
+            <p class="main__left-counter">counter</p>
+          </div> -->
+        </div>
+      </div>
+
+      <!-- Middle -->
+
+      <div class="main__middle-container">
+        <div>
+          <h3 class="winner">WINNER</h3>
+        </div>
+        
+          <div class="main__middle-image">
+            <h3 class="winner__banner">Winner</h3>
+          </div>
+        
+        <!-- <button class="main__middle-play-button">PLAY!</button> -->
+      </div>
+
+
+      <!-- RIGHT -->
+      <div class="main__right-container">
+        <div class="main__right-container-content">
+          <div id="form-container-two">
+            <form class="form-container">
+              <label for="name">Player 2</label>
+              <input type="text" id="name2" name="name" /><br />
+
+              <button type="button" onclick="displayNameTwo()">Submit</button>
+            </form>
+
+            <img class="" src="" />
+          </div>
+          <div id="output2"></div>
+          <div class="card-section">
+            <div class="card-container-2">
+              <img id="card-image-2" src="" />
+            </div>
+            <button id="draw-card-btn-2">Draw Card</button>
+          </div>
+
+          <!-- <div class="main__right-button-container">
+            <p class="main__right-counter">counter</p>
+          </div> -->
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>
